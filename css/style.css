@@ -123,6 +123,9 @@ article ul li:before {
     width: 1.3em;
     font-size: 1.5em;
     padding-right: .5em;
+    border-radius: 10rem;
+    background-color: rgb(177, 160, 236);
+    padding: 0 .3ch;
 }
 
 article header h2 {
@@ -166,10 +169,7 @@ section article button:hover {
 }
 
 .article-middle {
-    height: 100%;
     border-style: none;
-    border-radius: 4px;
-    transition: 0.3s;
     background-color: #410FF8;
     color: white;
 }
@@ -188,5 +188,6 @@ section article button:hover {
 }
 
 .article-middle ul li:before {
-    content: url("../assets/images/checkmark-purple.png");
+    content: url("../assets/images/checkmark-onpurple.png");
+    background-color: white;
 }
